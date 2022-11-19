@@ -16,7 +16,7 @@
 Так с какими именно числами наше приложение должно работать. Ограничимся уточнением целых чисел. Следующим этапом по аналогии с предыдущими проектами мы с вами 
 должны будем описать алгоритм, последовательность действий или блок-схему.*/
 
-int numberA = 3;
+/*int numberA = 3;
 int numberВ = 5;
 Console.WriteLine(numberA + numberВ );
 
@@ -30,7 +30,7 @@ Console.WriteLine(numberA + numberВ );
 Помимо этого, можно использовать символы подчёркивания « _ », но в языке С# для именования переменных это не принято. Дальше возьмём конкретное число 5 
 и покажем на экране Console.WriteLine. Чтобы таким образом вывести сумму. Запустим и посмотрим, что будет действительно сумма. Видим 8. */
 
-int numberC = 31;
+/*int numberC = 31;
 int numberD = 5;
 int result = numberC + numberD;
 Console.WriteLine(result);
@@ -40,3 +40,23 @@ Console.WriteLine(result);
 Перезапустим. Опять же изменим значение. Например, 31 здесь поставим. И спустя какое-то время мы с вами наблюдаем сумму чисел. 
 Вроде бы всё. Сравним с нашей блок схемой. Убедимся, что определили numberА и numberВ , показали сумму. 
 Также мы добавили дополнительный шаг — сохранение результатов в промежуточную переменную. Можно было этого и не делать. */
+
+/* Генератор псевдослучайных чисел
+Random().Next()
+Random().Next(min,max) = диапазон от min до max-1 */
+
+/*int numberE = new Random().Next(1,10);
+int numberF = new Random().Next(1,10);
+int result = numberE + numberF;
+Console.WriteLine(result);
+*/
+
+//Выведем построчно
+
+int numberE = new Random().Next(1,10);
+Console.WriteLine(numberE);
+int numberF = new Random().Next(1,10);
+Console.WriteLine(numberF);
+int result = numberE + numberF;
+Console.WriteLine(result);
+
