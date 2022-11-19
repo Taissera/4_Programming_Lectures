@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _4_Ex_diff
+build_property.ProjectDir = E:\GeekBrains\Системный Аналитик\4_Знакомство с языками программирования (лекции)\Урок 1\Работа на лекции 1\C_sharp_Lektsii_Lesson_1\Examples\4_Ex_diff\
