@@ -14,8 +14,8 @@ else
 
 /**/
 Console.Write("Введите username:");
-string username = Console.ReadLine();
-if(username.ToLower() == "маша")
+string? username = Console.ReadLine();
+if(username!.ToLower() == "маша")
 {
     Console.WriteLine("Ура! Цэ ж МАША!");
 }
