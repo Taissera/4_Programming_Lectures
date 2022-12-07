@@ -59,4 +59,3 @@ int numberF = new Random().Next(1,10);
 Console.WriteLine(numberF);
 int result = numberE + numberF;
 Console.WriteLine(result);
-
